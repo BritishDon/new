@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42A1D722724884A0093C71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D712724884A0093C71E /* AppDelegate.swift */; };
+		B42A1D742724884A0093C71E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D732724884A0093C71E /* SceneDelegate.swift */; };
+		B42A1D772724884A0093C71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D752724884A0093C71E /* LaunchScreen.storyboard */; };
+		B42A1D7A2724884A0093C71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D782724884A0093C71E /* Main.storyboard */; };
+		B42A1D832724884A0093C71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D822724884A0093C71E /* AppDelegate.swift */; };
+		B42A1D862724884A0093C71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D842724884A0093C71E /* Main.storyboard */; };
+		B42A1D8E2724884A0093C71E /* polkadot{.js} extension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B42A1D8D2724884A0093C71E /* polkadot{.js} extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B42A1D982724884A0093C71E /* polkadot{.js} extension Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B42A1D972724884A0093C71E /* polkadot{.js} extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B42A1D9E2724884A0093C71E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D61272488490093C71E /* Main.html */; };
+		B42A1D9F2724884A0093C71E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D61272488490093C71E /* Main.html */; };
+		B42A1DA02724884A0093C71E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D63272488490093C71E /* Icon.png */; };
+		B42A1DA12724884A0093C71E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D63272488490093C71E /* Icon.png */; };
+		B42A1DA22724884A0093C71E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D64272488490093C71E /* Style.css */; };
+		B42A1DA32724884A0093C71E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D64272488490093C71E /* Style.css */; };
+		B42A1DA42724884A0093C71E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D65272488490093C71E /* Script.js */; };
+		B42A1DA52724884A0093C71E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D65272488490093C71E /* Script.js */; };
+		B42A1DA62724884A0093C71E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D66272488490093C71E /* ViewController.swift */; };
+		B42A1DA72724884A0093C71E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D66272488490093C71E /* ViewController.swift */; };
+		B42A1DA82724884A0093C71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D672724884A0093C71E /* Assets.xcassets */; };
+		B42A1DA92724884A0093C71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D672724884A0093C71E /* Assets.xcassets */; };
+		B42A1DAA2724884A0093C71E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D692724884A0093C71E /* SafariWebExtensionHandler.swift */; };
+		B42A1DAB2724884A0093C71E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A1D692724884A0093C71E /* SafariWebExtensionHandler.swift */; };
+		B42A1DCC2724884B0093C71E /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DBD2724884B0093C71E /* favicon.ico */; };
+		B42A1DCD2724884B0093C71E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DBE2724884B0093C71E /* index.html */; };
+		B42A1DCE2724884B0093C71E /* locales in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DBF2724884B0093C71E /* locales */; };
+		B42A1DCF2724884B0093C71E /* page.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC02724884B0093C71E /* page.js */; };
+		B42A1DD02724884B0093C71E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC12724884B0093C71E /* background.js */; };
+		B42A1DD12724884B0093C71E /* images in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC22724884B0093C71E /* images */; };
+		B42A1DD22724884B0093C71E /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC32724884B0093C71E /* notification.html */; };
+		B42A1DD32724884B0093C71E /* extension.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC42724884B0093C71E /* extension.js.LICENSE.txt */; };
+		B42A1DD42724884B0093C71E /* page.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC52724884B0093C71E /* page.js.LICENSE.txt */; };
+		B42A1DD52724884B0093C71E /* static in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC62724884B0093C71E /* static */; };
+		B42A1DD62724884B0093C71E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC72724884B0093C71E /* manifest.json */; };
+		B42A1DD72724884B0093C71E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC82724884B0093C71E /* content.js */; };
+		B42A1DD82724884B0093C71E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC92724884B0093C71E /* fonts */; };
+		B42A1DD92724884B0093C71E /* background.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DCA2724884B0093C71E /* background.js.LICENSE.txt */; };
+		B42A1DDA2724884B0093C71E /* extension.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DCB2724884B0093C71E /* extension.js */; };
+		B42A1DDB2724884B0093C71E /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DBD2724884B0093C71E /* favicon.ico */; };
+		B42A1DDC2724884B0093C71E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DBE2724884B0093C71E /* index.html */; };
+		B42A1DDD2724884B0093C71E /* locales in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DBF2724884B0093C71E /* locales */; };
+		B42A1DDE2724884B0093C71E /* page.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC02724884B0093C71E /* page.js */; };
+		B42A1DDF2724884B0093C71E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC12724884B0093C71E /* background.js */; };
+		B42A1DE02724884B0093C71E /* images in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC22724884B0093C71E /* images */; };
+		B42A1DE12724884B0093C71E /* notification.html in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC32724884B0093C71E /* notification.html */; };
+		B42A1DE22724884B0093C71E /* extension.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC42724884B0093C71E /* extension.js.LICENSE.txt */; };
+		B42A1DE32724884B0093C71E /* page.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC52724884B0093C71E /* page.js.LICENSE.txt */; };
+		B42A1DE42724884B0093C71E /* static in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC62724884B0093C71E /* static */; };
+		B42A1DE52724884B0093C71E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC72724884B0093C71E /* manifest.json */; };
+		B42A1DE62724884B0093C71E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC82724884B0093C71E /* content.js */; };
+		B42A1DE72724884B0093C71E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DC92724884B0093C71E /* fonts */; };
+		B42A1DE82724884B0093C71E /* background.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DCA2724884B0093C71E /* background.js.LICENSE.txt */; };
+		B42A1DE92724884B0093C71E /* extension.js in Resources */ = {isa = PBXBuildFile; fileRef = B42A1DCB2724884B0093C71E /* extension.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B42A1D8F2724884A0093C71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42A1D5B272488490093C71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42A1D8C2724884A0093C71E;
+			remoteInfo = "polkadot{.js} extension Extension (iOS)";
+		};
+		B42A1D992724884A0093C71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42A1D5B272488490093C71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42A1D962724884A0093C71E;
+			remoteInfo = "polkadot{.js} extension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B42A1DB12724884A0093C71E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B42A1D8E2724884A0093C71E /* polkadot{.js} extension Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1DB82724884A0093C71E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B42A1D982724884A0093C71E /* polkadot{.js} extension Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B42A1D62272488490093C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		B42A1D63272488490093C71E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B42A1D64272488490093C71E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B42A1D65272488490093C71E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B42A1D66272488490093C71E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B42A1D672724884A0093C71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B42A1D692724884A0093C71E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B42A1D6E2724884A0093C71E /* polkadot{.js} extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "polkadot{.js} extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A1D712724884A0093C71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B42A1D732724884A0093C71E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B42A1D762724884A0093C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B42A1D792724884A0093C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B42A1D7B2724884A0093C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42A1D802724884A0093C71E /* polkadot{.js} extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "polkadot{.js} extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A1D822724884A0093C71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B42A1D852724884A0093C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B42A1D872724884A0093C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42A1D882724884A0093C71E /* polkadot{.js} extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "polkadot{.js} extension.entitlements"; sourceTree = "<group>"; };
+		B42A1D8D2724884A0093C71E /* polkadot{.js} extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "polkadot{.js} extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A1D922724884A0093C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42A1D972724884A0093C71E /* polkadot{.js} extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "polkadot{.js} extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42A1D9C2724884A0093C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42A1D9D2724884A0093C71E /* polkadot{.js} extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "polkadot{.js} extension.entitlements"; sourceTree = "<group>"; };
+		B42A1DBD2724884B0093C71E /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = ../../packages/extension/build/favicon.ico; sourceTree = "<group>"; };
+		B42A1DBE2724884B0093C71E /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../packages/extension/build/index.html; sourceTree = "<group>"; };
+		B42A1DBF2724884B0093C71E /* locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = locales; path = ../../packages/extension/build/locales; sourceTree = "<group>"; };
+		B42A1DC02724884B0093C71E /* page.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = page.js; path = ../../packages/extension/build/page.js; sourceTree = "<group>"; };
+		B42A1DC12724884B0093C71E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../packages/extension/build/background.js; sourceTree = "<group>"; };
+		B42A1DC22724884B0093C71E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../packages/extension/build/images; sourceTree = "<group>"; };
+		B42A1DC32724884B0093C71E /* notification.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = notification.html; path = ../../packages/extension/build/notification.html; sourceTree = "<group>"; };
+		B42A1DC42724884B0093C71E /* extension.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = extension.js.LICENSE.txt; path = ../../packages/extension/build/extension.js.LICENSE.txt; sourceTree = "<group>"; };
+		B42A1DC52724884B0093C71E /* page.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = page.js.LICENSE.txt; path = ../../packages/extension/build/page.js.LICENSE.txt; sourceTree = "<group>"; };
+		B42A1DC62724884B0093C71E /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = ../../packages/extension/build/static; sourceTree = "<group>"; };
+		B42A1DC72724884B0093C71E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../packages/extension/build/manifest.json; sourceTree = "<group>"; };
+		B42A1DC82724884B0093C71E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../packages/extension/build/content.js; sourceTree = "<group>"; };
+		B42A1DC92724884B0093C71E /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../../packages/extension/build/fonts; sourceTree = "<group>"; };
+		B42A1DCA2724884B0093C71E /* background.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = background.js.LICENSE.txt; path = ../../packages/extension/build/background.js.LICENSE.txt; sourceTree = "<group>"; };
+		B42A1DCB2724884B0093C71E /* extension.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = extension.js; path = ../../packages/extension/build/extension.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42A1D6B2724884A0093C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D7D2724884A0093C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D8A2724884A0093C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D942724884A0093C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B42A1D5A272488490093C71E = {
+			isa = PBXGroup;
+			children = (
+				B42A1D5F272488490093C71E /* Shared (App) */,
+				B42A1D682724884A0093C71E /* Shared (Extension) */,
+				B42A1D702724884A0093C71E /* iOS (App) */,
+				B42A1D812724884A0093C71E /* macOS (App) */,
+				B42A1D912724884A0093C71E /* iOS (Extension) */,
+				B42A1D9B2724884A0093C71E /* macOS (Extension) */,
+				B42A1D6F2724884A0093C71E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B42A1D5F272488490093C71E /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D66272488490093C71E /* ViewController.swift */,
+				B42A1D672724884A0093C71E /* Assets.xcassets */,
+				B42A1D60272488490093C71E /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		B42A1D60272488490093C71E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D61272488490093C71E /* Main.html */,
+				B42A1D63272488490093C71E /* Icon.png */,
+				B42A1D64272488490093C71E /* Style.css */,
+				B42A1D65272488490093C71E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B42A1D682724884A0093C71E /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1DBC2724884B0093C71E /* Resources */,
+				B42A1D692724884A0093C71E /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		B42A1D6F2724884A0093C71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D6E2724884A0093C71E /* polkadot{.js} extension.app */,
+				B42A1D802724884A0093C71E /* polkadot{.js} extension.app */,
+				B42A1D8D2724884A0093C71E /* polkadot{.js} extension Extension.appex */,
+				B42A1D972724884A0093C71E /* polkadot{.js} extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42A1D702724884A0093C71E /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D712724884A0093C71E /* AppDelegate.swift */,
+				B42A1D732724884A0093C71E /* SceneDelegate.swift */,
+				B42A1D752724884A0093C71E /* LaunchScreen.storyboard */,
+				B42A1D782724884A0093C71E /* Main.storyboard */,
+				B42A1D7B2724884A0093C71E /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		B42A1D812724884A0093C71E /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D822724884A0093C71E /* AppDelegate.swift */,
+				B42A1D842724884A0093C71E /* Main.storyboard */,
+				B42A1D872724884A0093C71E /* Info.plist */,
+				B42A1D882724884A0093C71E /* polkadot{.js} extension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		B42A1D912724884A0093C71E /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D922724884A0093C71E /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B42A1D9B2724884A0093C71E /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1D9C2724884A0093C71E /* Info.plist */,
+				B42A1D9D2724884A0093C71E /* polkadot{.js} extension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B42A1DBC2724884B0093C71E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B42A1DBD2724884B0093C71E /* favicon.ico */,
+				B42A1DBE2724884B0093C71E /* index.html */,
+				B42A1DBF2724884B0093C71E /* locales */,
+				B42A1DC02724884B0093C71E /* page.js */,
+				B42A1DC12724884B0093C71E /* background.js */,
+				B42A1DC22724884B0093C71E /* images */,
+				B42A1DC32724884B0093C71E /* notification.html */,
+				B42A1DC42724884B0093C71E /* extension.js.LICENSE.txt */,
+				B42A1DC52724884B0093C71E /* page.js.LICENSE.txt */,
+				B42A1DC62724884B0093C71E /* static */,
+				B42A1DC72724884B0093C71E /* manifest.json */,
+				B42A1DC82724884B0093C71E /* content.js */,
+				B42A1DC92724884B0093C71E /* fonts */,
+				B42A1DCA2724884B0093C71E /* background.js.LICENSE.txt */,
+				B42A1DCB2724884B0093C71E /* extension.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42A1D6D2724884A0093C71E /* polkadot{.js} extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A1DB22724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension (iOS)" */;
+			buildPhases = (
+				B42A1D6A2724884A0093C71E /* Sources */,
+				B42A1D6B2724884A0093C71E /* Frameworks */,
+				B42A1D6C2724884A0093C71E /* Resources */,
+				B42A1DB12724884A0093C71E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42A1D902724884A0093C71E /* PBXTargetDependency */,
+			);
+			name = "polkadot{.js} extension (iOS)";
+			productName = "polkadot{.js} extension (iOS)";
+			productReference = B42A1D6E2724884A0093C71E /* polkadot{.js} extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B42A1D7F2724884A0093C71E /* polkadot{.js} extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A1DB92724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension (macOS)" */;
+			buildPhases = (
+				B42A1D7C2724884A0093C71E /* Sources */,
+				B42A1D7D2724884A0093C71E /* Frameworks */,
+				B42A1D7E2724884A0093C71E /* Resources */,
+				B42A1DB82724884A0093C71E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42A1D9A2724884A0093C71E /* PBXTargetDependency */,
+			);
+			name = "polkadot{.js} extension (macOS)";
+			productName = "polkadot{.js} extension (macOS)";
+			productReference = B42A1D802724884A0093C71E /* polkadot{.js} extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B42A1D8C2724884A0093C71E /* polkadot{.js} extension Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A1DAE2724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension Extension (iOS)" */;
+			buildPhases = (
+				B42A1D892724884A0093C71E /* Sources */,
+				B42A1D8A2724884A0093C71E /* Frameworks */,
+				B42A1D8B2724884A0093C71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "polkadot{.js} extension Extension (iOS)";
+			productName = "polkadot{.js} extension Extension (iOS)";
+			productReference = B42A1D8D2724884A0093C71E /* polkadot{.js} extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B42A1D962724884A0093C71E /* polkadot{.js} extension Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42A1DB52724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension Extension (macOS)" */;
+			buildPhases = (
+				B42A1D932724884A0093C71E /* Sources */,
+				B42A1D942724884A0093C71E /* Frameworks */,
+				B42A1D952724884A0093C71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "polkadot{.js} extension Extension (macOS)";
+			productName = "polkadot{.js} extension Extension (macOS)";
+			productReference = B42A1D972724884A0093C71E /* polkadot{.js} extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42A1D5B272488490093C71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B42A1D6D2724884A0093C71E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B42A1D7F2724884A0093C71E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B42A1D8C2724884A0093C71E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B42A1D962724884A0093C71E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = B42A1D5E272488490093C71E /* Build configuration list for PBXProject "polkadot{.js} extension" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42A1D5A272488490093C71E;
+			productRefGroup = B42A1D6F2724884A0093C71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42A1D6D2724884A0093C71E /* polkadot{.js} extension (iOS) */,
+				B42A1D7F2724884A0093C71E /* polkadot{.js} extension (macOS) */,
+				B42A1D8C2724884A0093C71E /* polkadot{.js} extension Extension (iOS) */,
+				B42A1D962724884A0093C71E /* polkadot{.js} extension Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42A1D6C2724884A0093C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DA02724884A0093C71E /* Icon.png in Resources */,
+				B42A1D772724884A0093C71E /* LaunchScreen.storyboard in Resources */,
+				B42A1D9E2724884A0093C71E /* Main.html in Resources */,
+				B42A1DA42724884A0093C71E /* Script.js in Resources */,
+				B42A1DA82724884A0093C71E /* Assets.xcassets in Resources */,
+				B42A1D7A2724884A0093C71E /* Main.storyboard in Resources */,
+				B42A1DA22724884A0093C71E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D7E2724884A0093C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DA12724884A0093C71E /* Icon.png in Resources */,
+				B42A1DA32724884A0093C71E /* Style.css in Resources */,
+				B42A1D862724884A0093C71E /* Main.storyboard in Resources */,
+				B42A1DA52724884A0093C71E /* Script.js in Resources */,
+				B42A1DA92724884A0093C71E /* Assets.xcassets in Resources */,
+				B42A1D9F2724884A0093C71E /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D8B2724884A0093C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DE62724884B0093C71E /* content.js in Resources */,
+				B42A1DE72724884B0093C71E /* fonts in Resources */,
+				B42A1DE42724884B0093C71E /* static in Resources */,
+				B42A1DE32724884B0093C71E /* page.js.LICENSE.txt in Resources */,
+				B42A1DE02724884B0093C71E /* images in Resources */,
+				B42A1DDD2724884B0093C71E /* locales in Resources */,
+				B42A1DDB2724884B0093C71E /* favicon.ico in Resources */,
+				B42A1DE52724884B0093C71E /* manifest.json in Resources */,
+				B42A1DDC2724884B0093C71E /* index.html in Resources */,
+				B42A1DE92724884B0093C71E /* extension.js in Resources */,
+				B42A1DDE2724884B0093C71E /* page.js in Resources */,
+				B42A1DDF2724884B0093C71E /* background.js in Resources */,
+				B42A1DE82724884B0093C71E /* background.js.LICENSE.txt in Resources */,
+				B42A1DE12724884B0093C71E /* notification.html in Resources */,
+				B42A1DE22724884B0093C71E /* extension.js.LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D952724884A0093C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DD72724884B0093C71E /* content.js in Resources */,
+				B42A1DD82724884B0093C71E /* fonts in Resources */,
+				B42A1DD52724884B0093C71E /* static in Resources */,
+				B42A1DD42724884B0093C71E /* page.js.LICENSE.txt in Resources */,
+				B42A1DD12724884B0093C71E /* images in Resources */,
+				B42A1DCE2724884B0093C71E /* locales in Resources */,
+				B42A1DCC2724884B0093C71E /* favicon.ico in Resources */,
+				B42A1DD62724884B0093C71E /* manifest.json in Resources */,
+				B42A1DCD2724884B0093C71E /* index.html in Resources */,
+				B42A1DDA2724884B0093C71E /* extension.js in Resources */,
+				B42A1DCF2724884B0093C71E /* page.js in Resources */,
+				B42A1DD02724884B0093C71E /* background.js in Resources */,
+				B42A1DD92724884B0093C71E /* background.js.LICENSE.txt in Resources */,
+				B42A1DD22724884B0093C71E /* notification.html in Resources */,
+				B42A1DD32724884B0093C71E /* extension.js.LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42A1D6A2724884A0093C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DA62724884A0093C71E /* ViewController.swift in Sources */,
+				B42A1D722724884A0093C71E /* AppDelegate.swift in Sources */,
+				B42A1D742724884A0093C71E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D7C2724884A0093C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DA72724884A0093C71E /* ViewController.swift in Sources */,
+				B42A1D832724884A0093C71E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D892724884A0093C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DAA2724884A0093C71E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42A1D932724884A0093C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42A1DAB2724884A0093C71E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B42A1D902724884A0093C71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42A1D8C2724884A0093C71E /* polkadot{.js} extension Extension (iOS) */;
+			targetProxy = B42A1D8F2724884A0093C71E /* PBXContainerItemProxy */;
+		};
+		B42A1D9A2724884A0093C71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42A1D962724884A0093C71E /* polkadot{.js} extension Extension (macOS) */;
+			targetProxy = B42A1D992724884A0093C71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B42A1D61272488490093C71E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42A1D62272488490093C71E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B42A1D752724884A0093C71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42A1D762724884A0093C71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B42A1D782724884A0093C71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42A1D792724884A0093C71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B42A1D842724884A0093C71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42A1D852724884A0093C71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42A1DAC2724884A0093C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42A1DAD2724884A0093C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B42A1DAF2724884A0093C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension.Extension";
+				PRODUCT_NAME = "polkadot{.js} extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B42A1DB02724884A0093C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension.Extension";
+				PRODUCT_NAME = "polkadot{.js} extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42A1DB32724884A0093C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension";
+				PRODUCT_NAME = "polkadot{.js} extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B42A1DB42724884A0093C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension";
+				PRODUCT_NAME = "polkadot{.js} extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42A1DB62724884A0093C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/polkadot{.js} extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension.Extension";
+				PRODUCT_NAME = "polkadot{.js} extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B42A1DB72724884A0093C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/polkadot{.js} extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension.Extension";
+				PRODUCT_NAME = "polkadot{.js} extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B42A1DBA2724884A0093C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/polkadot{.js} extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension";
+				PRODUCT_NAME = "polkadot{.js} extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B42A1DBB2724884A0093C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/polkadot{.js} extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "polkadot{.js} extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.polkadot--js--extension";
+				PRODUCT_NAME = "polkadot{.js} extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42A1D5E272488490093C71E /* Build configuration list for PBXProject "polkadot{.js} extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A1DAC2724884A0093C71E /* Debug */,
+				B42A1DAD2724884A0093C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A1DAE2724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A1DAF2724884A0093C71E /* Debug */,
+				B42A1DB02724884A0093C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A1DB22724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A1DB32724884A0093C71E /* Debug */,
+				B42A1DB42724884A0093C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A1DB52724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A1DB62724884A0093C71E /* Debug */,
+				B42A1DB72724884A0093C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42A1DB92724884A0093C71E /* Build configuration list for PBXNativeTarget "polkadot{.js} extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A1DBA2724884A0093C71E /* Debug */,
+				B42A1DBB2724884A0093C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B42A1D5B272488490093C71E /* Project object */;
+}
